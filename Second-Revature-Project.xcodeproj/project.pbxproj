@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F426A7226498EBC00715789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7126498EBC00715789 /* AppDelegate.swift */; };
+		5F426A7426498EBC00715789 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7326498EBC00715789 /* SceneDelegate.swift */; };
+		5F426A7626498EBC00715789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7526498EBC00715789 /* ViewController.swift */; };
+		5F426A7926498EBC00715789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F426A7726498EBC00715789 /* Main.storyboard */; };
+		5F426A7C26498EBC00715789 /* Second_Revature_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7A26498EBC00715789 /* Second_Revature_Project.xcdatamodeld */; };
+		5F426A7E26498EBD00715789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F426A7D26498EBD00715789 /* Assets.xcassets */; };
+		5F426A8126498EBD00715789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F426A7F26498EBD00715789 /* LaunchScreen.storyboard */; };
+		5F426A8C26498EBD00715789 /* Second_Revature_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A8B26498EBD00715789 /* Second_Revature_ProjectTests.swift */; };
+		5F426A9726498EBD00715789 /* Second_Revature_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A9626498EBD00715789 /* Second_Revature_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F426A8826498EBD00715789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F426A6626498EBC00715789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F426A6D26498EBC00715789;
+			remoteInfo = "Second-Revature-Project";
+		};
+		5F426A9326498EBD00715789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F426A6626498EBC00715789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F426A6D26498EBC00715789;
+			remoteInfo = "Second-Revature-Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F426A6E26498EBC00715789 /* Second-Revature-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second-Revature-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F426A7126498EBC00715789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F426A7326498EBC00715789 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F426A7526498EBC00715789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F426A7826498EBC00715789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F426A7B26498EBC00715789 /* Second_Revature_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Second_Revature_Project.xcdatamodel; sourceTree = "<group>"; };
+		5F426A7D26498EBD00715789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F426A8026498EBD00715789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F426A8226498EBD00715789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F426A8726498EBD00715789 /* Second-Revature-ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second-Revature-ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F426A8B26498EBD00715789 /* Second_Revature_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Revature_ProjectTests.swift; sourceTree = "<group>"; };
+		5F426A8D26498EBD00715789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F426A9226498EBD00715789 /* Second-Revature-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second-Revature-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F426A9626498EBD00715789 /* Second_Revature_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Revature_ProjectUITests.swift; sourceTree = "<group>"; };
+		5F426A9826498EBD00715789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F426A6B26498EBC00715789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F426A8426498EBD00715789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F426A8F26498EBD00715789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F426A6526498EBC00715789 = {
+			isa = PBXGroup;
+			children = (
+				5F426A7026498EBC00715789 /* Second-Revature-Project */,
+				5F426A8A26498EBD00715789 /* Second-Revature-ProjectTests */,
+				5F426A9526498EBD00715789 /* Second-Revature-ProjectUITests */,
+				5F426A6F26498EBC00715789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F426A6F26498EBC00715789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F426A6E26498EBC00715789 /* Second-Revature-Project.app */,
+				5F426A8726498EBD00715789 /* Second-Revature-ProjectTests.xctest */,
+				5F426A9226498EBD00715789 /* Second-Revature-ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F426A7026498EBC00715789 /* Second-Revature-Project */ = {
+			isa = PBXGroup;
+			children = (
+				5F426A7126498EBC00715789 /* AppDelegate.swift */,
+				5F426A7326498EBC00715789 /* SceneDelegate.swift */,
+				5F426A7526498EBC00715789 /* ViewController.swift */,
+				5F426A7726498EBC00715789 /* Main.storyboard */,
+				5F426A7D26498EBD00715789 /* Assets.xcassets */,
+				5F426A7F26498EBD00715789 /* LaunchScreen.storyboard */,
+				5F426A8226498EBD00715789 /* Info.plist */,
+				5F426A7A26498EBC00715789 /* Second_Revature_Project.xcdatamodeld */,
+			);
+			path = "Second-Revature-Project";
+			sourceTree = "<group>";
+		};
+		5F426A8A26498EBD00715789 /* Second-Revature-ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F426A8B26498EBD00715789 /* Second_Revature_ProjectTests.swift */,
+				5F426A8D26498EBD00715789 /* Info.plist */,
+			);
+			path = "Second-Revature-ProjectTests";
+			sourceTree = "<group>";
+		};
+		5F426A9526498EBD00715789 /* Second-Revature-ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F426A9626498EBD00715789 /* Second_Revature_ProjectUITests.swift */,
+				5F426A9826498EBD00715789 /* Info.plist */,
+			);
+			path = "Second-Revature-ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F426A6D26498EBC00715789 /* Second-Revature-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F426A9B26498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-Project" */;
+			buildPhases = (
+				5F426A6A26498EBC00715789 /* Sources */,
+				5F426A6B26498EBC00715789 /* Frameworks */,
+				5F426A6C26498EBC00715789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Second-Revature-Project";
+			productName = "Second-Revature-Project";
+			productReference = 5F426A6E26498EBC00715789 /* Second-Revature-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F426A8626498EBD00715789 /* Second-Revature-ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F426A9E26498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-ProjectTests" */;
+			buildPhases = (
+				5F426A8326498EBD00715789 /* Sources */,
+				5F426A8426498EBD00715789 /* Frameworks */,
+				5F426A8526498EBD00715789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F426A8926498EBD00715789 /* PBXTargetDependency */,
+			);
+			name = "Second-Revature-ProjectTests";
+			productName = "Second-Revature-ProjectTests";
+			productReference = 5F426A8726498EBD00715789 /* Second-Revature-ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F426A9126498EBD00715789 /* Second-Revature-ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F426AA126498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-ProjectUITests" */;
+			buildPhases = (
+				5F426A8E26498EBD00715789 /* Sources */,
+				5F426A8F26498EBD00715789 /* Frameworks */,
+				5F426A9026498EBD00715789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F426A9426498EBD00715789 /* PBXTargetDependency */,
+			);
+			name = "Second-Revature-ProjectUITests";
+			productName = "Second-Revature-ProjectUITests";
+			productReference = 5F426A9226498EBD00715789 /* Second-Revature-ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F426A6626498EBC00715789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5F426A6D26498EBC00715789 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5F426A8626498EBD00715789 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5F426A6D26498EBC00715789;
+					};
+					5F426A9126498EBD00715789 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5F426A6D26498EBC00715789;
+					};
+				};
+			};
+			buildConfigurationList = 5F426A6926498EBC00715789 /* Build configuration list for PBXProject "Second-Revature-Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F426A6526498EBC00715789;
+			productRefGroup = 5F426A6F26498EBC00715789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F426A6D26498EBC00715789 /* Second-Revature-Project */,
+				5F426A8626498EBD00715789 /* Second-Revature-ProjectTests */,
+				5F426A9126498EBD00715789 /* Second-Revature-ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F426A6C26498EBC00715789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F426A8126498EBD00715789 /* LaunchScreen.storyboard in Resources */,
+				5F426A7E26498EBD00715789 /* Assets.xcassets in Resources */,
+				5F426A7926498EBC00715789 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F426A8526498EBD00715789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F426A9026498EBD00715789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F426A6A26498EBC00715789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F426A7626498EBC00715789 /* ViewController.swift in Sources */,
+				5F426A7226498EBC00715789 /* AppDelegate.swift in Sources */,
+				5F426A7426498EBC00715789 /* SceneDelegate.swift in Sources */,
+				5F426A7C26498EBC00715789 /* Second_Revature_Project.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F426A8326498EBD00715789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F426A8C26498EBD00715789 /* Second_Revature_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F426A8E26498EBD00715789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F426A9726498EBD00715789 /* Second_Revature_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F426A8926498EBD00715789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F426A6D26498EBC00715789 /* Second-Revature-Project */;
+			targetProxy = 5F426A8826498EBD00715789 /* PBXContainerItemProxy */;
+		};
+		5F426A9426498EBD00715789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F426A6D26498EBC00715789 /* Second-Revature-Project */;
+			targetProxy = 5F426A9326498EBD00715789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F426A7726498EBC00715789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F426A7826498EBC00715789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F426A7F26498EBD00715789 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F426A8026498EBD00715789 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F426A9926498EBD00715789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F426A9A26498EBD00715789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F426A9C26498EBD00715789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BDAF2SHGL;
+				INFOPLIST_FILE = "Second-Revature-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.brianbachow.Second-Revature-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F426A9D26498EBD00715789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BDAF2SHGL;
+				INFOPLIST_FILE = "Second-Revature-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.brianbachow.Second-Revature-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F426A9F26498EBD00715789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BDAF2SHGL;
+				INFOPLIST_FILE = "Second-Revature-ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.brianbachow.Second-Revature-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Second-Revature-Project.app/Second-Revature-Project";
+			};
+			name = Debug;
+		};
+		5F426AA026498EBD00715789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BDAF2SHGL;
+				INFOPLIST_FILE = "Second-Revature-ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.brianbachow.Second-Revature-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Second-Revature-Project.app/Second-Revature-Project";
+			};
+			name = Release;
+		};
+		5F426AA226498EBD00715789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BDAF2SHGL;
+				INFOPLIST_FILE = "Second-Revature-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.brianbachow.Second-Revature-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Second-Revature-Project";
+			};
+			name = Debug;
+		};
+		5F426AA326498EBD00715789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BDAF2SHGL;
+				INFOPLIST_FILE = "Second-Revature-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.brianbachow.Second-Revature-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Second-Revature-Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F426A6926498EBC00715789 /* Build configuration list for PBXProject "Second-Revature-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F426A9926498EBD00715789 /* Debug */,
+				5F426A9A26498EBD00715789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F426A9B26498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F426A9C26498EBD00715789 /* Debug */,
+				5F426A9D26498EBD00715789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F426A9E26498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F426A9F26498EBD00715789 /* Debug */,
+				5F426AA026498EBD00715789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F426AA126498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F426AA226498EBD00715789 /* Debug */,
+				5F426AA326498EBD00715789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F426A7A26498EBC00715789 /* Second_Revature_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F426A7B26498EBC00715789 /* Second_Revature_Project.xcdatamodel */,
+			);
+			currentVersion = 5F426A7B26498EBC00715789 /* Second_Revature_Project.xcdatamodel */;
+			path = Second_Revature_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F426A6626498EBC00715789 /* Project object */;
+}
