@@ -81,6 +81,7 @@
 		5F426A6526498EBC00715789 = {
 			isa = PBXGroup;
 			children = (
+				84DC4FE62649D9E5005B9822 /* Additional Resources */,
 				5F426A7026498EBC00715789 /* Second-Revature-Project */,
 				5F426A8A26498EBD00715789 /* Second-Revature-ProjectTests */,
 				5F426A9526498EBD00715789 /* Second-Revature-ProjectUITests */,
@@ -129,6 +130,13 @@
 				5F426A9826498EBD00715789 /* Info.plist */,
 			);
 			path = "Second-Revature-ProjectUITests";
+			sourceTree = "<group>";
+		};
+		84DC4FE62649D9E5005B9822 /* Additional Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Additional Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
