@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A546A4B64D2FE669719CB33 /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858E800866EC089D34F8443E /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework */; };
+		403539AEE9B194B811D1A8A0 /* Pods_Second_Revature_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08E1B8307F5B14764B3A24 /* Pods_Second_Revature_ProjectTests.framework */; };
+		5C5957AD264A15B5001434A9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5957AC264A15B5001434A9 /* DashboardViewController.swift */; };
+		5C5957BD264A1883001434A9 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5957BC264A1883001434A9 /* MenuTableViewController.swift */; };
 		5F426A7226498EBC00715789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7126498EBC00715789 /* AppDelegate.swift */; };
 		5F426A7426498EBC00715789 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7326498EBC00715789 /* SceneDelegate.swift */; };
 		5F426A7626498EBC00715789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7526498EBC00715789 /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		5F426A8126498EBD00715789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F426A7F26498EBD00715789 /* LaunchScreen.storyboard */; };
 		5F426A8C26498EBD00715789 /* Second_Revature_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A8B26498EBD00715789 /* Second_Revature_ProjectTests.swift */; };
 		5F426A9726498EBD00715789 /* Second_Revature_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A9626498EBD00715789 /* Second_Revature_ProjectUITests.swift */; };
+		B790FB3E96BCC74081F10BBD /* Pods_Second_Revature_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB271EED3A9BEC4BC64F55D8 /* Pods_Second_Revature_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		129248BF3DE2160E4F1E44D4 /* Pods-Second-Revature-Project-Second-Revature-ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Second-Revature-Project-Second-Revature-ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Second-Revature-Project-Second-Revature-ProjectUITests/Pods-Second-Revature-Project-Second-Revature-ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4900E8D1005275C1621358EB /* Pods-Second-Revature-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Second-Revature-Project.debug.xcconfig"; path = "Target Support Files/Pods-Second-Revature-Project/Pods-Second-Revature-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		49F64CDFF433E91E034F5E90 /* Pods-Second-Revature-Project-Second-Revature-ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Second-Revature-Project-Second-Revature-ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Second-Revature-Project-Second-Revature-ProjectUITests/Pods-Second-Revature-Project-Second-Revature-ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C5957AC264A15B5001434A9 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5C5957BC264A1883001434A9 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		5F426A6E26498EBC00715789 /* Second-Revature-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second-Revature-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F426A7126498EBC00715789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F426A7326498EBC00715789 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,12 @@
 		5F426A9226498EBD00715789 /* Second-Revature-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second-Revature-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F426A9626498EBD00715789 /* Second_Revature_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_Revature_ProjectUITests.swift; sourceTree = "<group>"; };
 		5F426A9826498EBD00715789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5CC85F2CC8662D63C27917 /* Pods-Second-Revature-ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Second-Revature-ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Second-Revature-ProjectTests/Pods-Second-Revature-ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		858E800866EC089D34F8443E /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB40664CD747599CD097407D /* Pods-Second-Revature-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Second-Revature-Project.release.xcconfig"; path = "Target Support Files/Pods-Second-Revature-Project/Pods-Second-Revature-Project.release.xcconfig"; sourceTree = "<group>"; };
+		DB08E1B8307F5B14764B3A24 /* Pods_Second_Revature_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Second_Revature_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB271EED3A9BEC4BC64F55D8 /* Pods_Second_Revature_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Second_Revature_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F920DBAB0C7E112B551450E3 /* Pods-Second-Revature-ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Second-Revature-ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Second-Revature-ProjectTests/Pods-Second-Revature-ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B790FB3E96BCC74081F10BBD /* Pods_Second_Revature_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403539AEE9B194B811D1A8A0 /* Pods_Second_Revature_ProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A546A4B64D2FE669719CB33 /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5957B1264A15C2001434A9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F426A7526498EBC00715789 /* ViewController.swift */,
+				5C5957AC264A15B5001434A9 /* DashboardViewController.swift */,
+				5C5957BC264A1883001434A9 /* MenuTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5F426A6526498EBC00715789 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +115,8 @@
 				5F426A8A26498EBD00715789 /* Second-Revature-ProjectTests */,
 				5F426A9526498EBD00715789 /* Second-Revature-ProjectUITests */,
 				5F426A6F26498EBC00715789 /* Products */,
+				F1549A53BCA7C736C4064B25 /* Pods */,
+				9E16BA94B8EBB3185D1B7B16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +133,9 @@
 		5F426A7026498EBC00715789 /* Second-Revature-Project */ = {
 			isa = PBXGroup;
 			children = (
+				5C5957B1264A15C2001434A9 /* ViewControllers */,
 				5F426A7126498EBC00715789 /* AppDelegate.swift */,
 				5F426A7326498EBC00715789 /* SceneDelegate.swift */,
-				5F426A7526498EBC00715789 /* ViewController.swift */,
 				5F426A7726498EBC00715789 /* Main.storyboard */,
 				5F426A7D26498EBD00715789 /* Assets.xcassets */,
 				5F426A7F26498EBD00715789 /* LaunchScreen.storyboard */,
@@ -132,11 +163,35 @@
 			path = "Second-Revature-ProjectUITests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		84DC4FE62649D9E5005B9822 /* Additional Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "Additional Resources";
+=======
+		9E16BA94B8EBB3185D1B7B16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB271EED3A9BEC4BC64F55D8 /* Pods_Second_Revature_Project.framework */,
+				858E800866EC089D34F8443E /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework */,
+				DB08E1B8307F5B14764B3A24 /* Pods_Second_Revature_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1549A53BCA7C736C4064B25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4900E8D1005275C1621358EB /* Pods-Second-Revature-Project.debug.xcconfig */,
+				BB40664CD747599CD097407D /* Pods-Second-Revature-Project.release.xcconfig */,
+				129248BF3DE2160E4F1E44D4 /* Pods-Second-Revature-Project-Second-Revature-ProjectUITests.debug.xcconfig */,
+				49F64CDFF433E91E034F5E90 /* Pods-Second-Revature-Project-Second-Revature-ProjectUITests.release.xcconfig */,
+				6A5CC85F2CC8662D63C27917 /* Pods-Second-Revature-ProjectTests.debug.xcconfig */,
+				F920DBAB0C7E112B551450E3 /* Pods-Second-Revature-ProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+>>>>>>> Rough UI design added
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F426A9B26498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-Project" */;
 			buildPhases = (
+				0D0499491CE919749CD457FF /* [CP] Check Pods Manifest.lock */,
 				5F426A6A26498EBC00715789 /* Sources */,
 				5F426A6B26498EBC00715789 /* Frameworks */,
 				5F426A6C26498EBC00715789 /* Resources */,
+				BAA4EDE94C33A13D4E93C8A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F426A9E26498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-ProjectTests" */;
 			buildPhases = (
+				050722344B95D48B19BC8FB6 /* [CP] Check Pods Manifest.lock */,
 				5F426A8326498EBD00715789 /* Sources */,
 				5F426A8426498EBD00715789 /* Frameworks */,
 				5F426A8526498EBD00715789 /* Resources */,
@@ -181,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F426AA126498EBD00715789 /* Build configuration list for PBXNativeTarget "Second-Revature-ProjectUITests" */;
 			buildPhases = (
+				B2476A6838D1C024805252D9 /* [CP] Check Pods Manifest.lock */,
 				5F426A8E26498EBD00715789 /* Sources */,
 				5F426A8F26498EBD00715789 /* Frameworks */,
 				5F426A9026498EBD00715789 /* Resources */,
+				CDDA99E30876199266FBC4F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +324,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		050722344B95D48B19BC8FB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Second-Revature-ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D0499491CE919749CD457FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Second-Revature-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2476A6838D1C024805252D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Second-Revature-Project-Second-Revature-ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA4EDE94C33A13D4E93C8A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Second-Revature-Project/Pods-Second-Revature-Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Second-Revature-Project/Pods-Second-Revature-Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Second-Revature-Project/Pods-Second-Revature-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDA99E30876199266FBC4F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Second-Revature-Project-Second-Revature-ProjectUITests/Pods-Second-Revature-Project-Second-Revature-ProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Second-Revature-Project-Second-Revature-ProjectUITests/Pods-Second-Revature-Project-Second-Revature-ProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Second-Revature-Project-Second-Revature-ProjectUITests/Pods-Second-Revature-Project-Second-Revature-ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F426A6A26498EBC00715789 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,6 +434,8 @@
 			files = (
 				5F426A7626498EBC00715789 /* ViewController.swift in Sources */,
 				5F426A7226498EBC00715789 /* AppDelegate.swift in Sources */,
+				5C5957BD264A1883001434A9 /* MenuTableViewController.swift in Sources */,
+				5C5957AD264A15B5001434A9 /* DashboardViewController.swift in Sources */,
 				5F426A7426498EBC00715789 /* SceneDelegate.swift in Sources */,
 				5F426A7C26498EBC00715789 /* Second_Revature_Project.xcdatamodeld in Sources */,
 			);
@@ -445,6 +610,7 @@
 		};
 		5F426A9C26498EBD00715789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4900E8D1005275C1621358EB /* Pods-Second-Revature-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +630,7 @@
 		};
 		5F426A9D26498EBD00715789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB40664CD747599CD097407D /* Pods-Second-Revature-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +650,7 @@
 		};
 		5F426A9F26498EBD00715789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5CC85F2CC8662D63C27917 /* Pods-Second-Revature-ProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +673,7 @@
 		};
 		5F426AA026498EBD00715789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F920DBAB0C7E112B551450E3 /* Pods-Second-Revature-ProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +696,7 @@
 		};
 		5F426AA226498EBD00715789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129248BF3DE2160E4F1E44D4 /* Pods-Second-Revature-Project-Second-Revature-ProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +717,7 @@
 		};
 		5F426AA326498EBD00715789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F64CDFF433E91E034F5E90 /* Pods-Second-Revature-Project-Second-Revature-ProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
