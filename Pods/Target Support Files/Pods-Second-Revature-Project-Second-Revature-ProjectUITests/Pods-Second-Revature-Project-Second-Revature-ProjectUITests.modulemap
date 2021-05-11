@@ -1,0 +1,6 @@
+framework module Pods_Second_Revature_Project_Second_Revature_ProjectUITests {
+  umbrella header "Pods-Second-Revature-Project-Second-Revature-ProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

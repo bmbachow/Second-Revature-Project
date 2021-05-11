@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A546A4B64D2FE669719CB33 /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858E800866EC089D34F8443E /* Pods_Second_Revature_Project_Second_Revature_ProjectUITests.framework */; };
 		403539AEE9B194B811D1A8A0 /* Pods_Second_Revature_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08E1B8307F5B14764B3A24 /* Pods_Second_Revature_ProjectTests.framework */; };
+		5C571510264A3D580067EA6F /* Pods_Second_Revature_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB271EED3A9BEC4BC64F55D8 /* Pods_Second_Revature_Project.framework */; };
 		5C5957AD264A15B5001434A9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5957AC264A15B5001434A9 /* DashboardViewController.swift */; };
 		5C5957BD264A1883001434A9 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5957BC264A1883001434A9 /* MenuTableViewController.swift */; };
 		5F426A7226498EBC00715789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A7126498EBC00715789 /* AppDelegate.swift */; };
@@ -20,7 +21,6 @@
 		5F426A8126498EBD00715789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F426A7F26498EBD00715789 /* LaunchScreen.storyboard */; };
 		5F426A8C26498EBD00715789 /* Second_Revature_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A8B26498EBD00715789 /* Second_Revature_ProjectTests.swift */; };
 		5F426A9726498EBD00715789 /* Second_Revature_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F426A9626498EBD00715789 /* Second_Revature_ProjectUITests.swift */; };
-		B790FB3E96BCC74081F10BBD /* Pods_Second_Revature_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB271EED3A9BEC4BC64F55D8 /* Pods_Second_Revature_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B790FB3E96BCC74081F10BBD /* Pods_Second_Revature_Project.framework in Frameworks */,
+				5C571510264A3D580067EA6F /* Pods_Second_Revature_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
